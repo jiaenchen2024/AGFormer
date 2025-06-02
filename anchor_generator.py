@@ -132,11 +132,11 @@ class uniform_weights(torch.nn.Module):
 def parse_args():
     parser = argparse.ArgumentParser(description="Hyperspherical Prototype Estimation")
     parser.add_argument("--seed", dest="seed", default=0, type=int)
-    parser.add_argument("--num_centroids", dest="num_centroids", default=15, type=int)
-    parser.add_argument("--anchor_num", dest="anchor_num", default=10, type=int)
-    parser.add_argument("--batch_size", dest="batch_size", default=16, type=int)
+    parser.add_argument("--num_centroids", dest="num_centroids", type=int)
+    parser.add_argument("--anchor_num", dest="anchor_num", type=int)
+    parser.add_argument("--batch_size", dest="batch_size", type=int)
     parser.add_argument("--space_dim", dest="space_dim", default=256, type=int)
-    parser.add_argument("--num_epoch", dest="num_epoch", default=10000, type=int)
+    parser.add_argument("--num_epoch", dest="num_epoch", default=1000, type=int)
     args = parser.parse_args()
     return args
 
