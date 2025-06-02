@@ -6,13 +6,13 @@ Please refer to `requirements.txt`  and review the tutorials on [open-CD](https:
 
 ## Traning
 First, please use `anchor_generator.py` to pre-define class anchors with the following command:
-···
+```
 python anchor_generator.py --num_centroids 2 --anchor_num 10 --batch_size 16
-···
+```
 Next, train the AGFormer by following the code:
-···
+```
 python tools/train.py the path of the cfg file --work-dir the dir path of your workspace
-···
+```
 We will upload the weights in the future.
 
 # citation
