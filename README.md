@@ -13,7 +13,7 @@ Next, train the AGFormer by following the code:
 ```
 python tools/train.py the path of the cfg file --work-dir the dir path of your workspace
 ```
-We will upload the weights in the future.
+Download checkpoints from [Baidu Netdisk](https://pan.baidu.com/s/1ecP9tYC_3JBel8HB6mPJnA?pwd=f3jf).
 
 # citation
 ```
